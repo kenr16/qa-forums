@@ -7,11 +7,11 @@
           <img src={{question.image}}>
         </div>
         <div class="row">
-          {{#link-to 'question' question.id}}{{question.author}}{{/link-to}}
+          {{question.author}}
         </div>
       </div>
       <div class="col-sm-3">
-        asked on {{question.date}}: "{{question.content}}"
+        asked on {{question.date}}: "{{#link-to 'question' question.id}}{{question.content}}{{/link-to}}"
       </div>
     </div>
   </div>
