@@ -11,12 +11,12 @@
         </div>
       </div>
       <div class="col-sm-3">
-        asked on {{question.date}}: "{{question.question}}"
+        asked on {{question.date}}: "{{question.content}}"
       </div>
     </div>
   </div>
 
   <br>
-
+  {{update-question question=question update="update"}}
   <button {{action 'delete' question}}>Delete Question</button>
 </li>
