@@ -2,16 +2,21 @@
     "author": "Lana Turner",
     "date": "June 1 2017",
     "question": "Why is the sky blue?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+    "image": "http://www.meredy.com/turner01.jpg"
   }, {
     "author": "Humphrey Bogart",
     "date": "June 2 2017",
     "question": "Why is are the clouds white?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIyOTE3MDM5Ml5BMl5BanBnXkFtZTYwMzA2MTM2._V1_UY317_CR14,0,214,317_AL_.jpg"
   }, {
     "author": "Ava Gardner",
     "date": "June 3 2017",
+    "question": "Why is the grass green?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ava_Gardner_Show_Boat_1951.jpg"
+  }, {
+    "author": "Charlton Heston",
+    "date": "June 4 2017",
     "question": "What is the meaning of all this?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxMDg1MjYzMV5BMl5BanBnXkFtZTYwMDMxOTE2._V1_UX214_CR0,0,214,317_AL_.jpg"
   }]
 }
