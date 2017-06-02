@@ -2,4 +2,11 @@
 <br>
 <p><img src={{question.image}} alt={{question.author}}></p>
 
+<h2> Answers </h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
+
 <button {{action 'delete' question}}>Delete</button>
