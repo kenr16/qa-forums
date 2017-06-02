@@ -1,0 +1,17 @@
+{ "questions": [{
+    "author": "Lana Turner",
+    "date": "June 1 2017",
+    "question": "Why is the sky blue?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "author": "Humphrey Bogart",
+    "date": "June 2 2017",
+    "question": "Why is are the clouds white?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "author": "Ava Gardner",
+    "date": "June 3 2017",
+    "question": "What is the meaning of all this?",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }]
+}

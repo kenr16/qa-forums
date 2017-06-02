@@ -1,0 +1,9 @@
+<h1>Welcome to Ask Me Anything</h1>
+<br>
+<p>We are a community full of answers waiting for the right question!  Give us a try.</p>
+
+<ul>
+  {{#each model as |question|}}
+     <li>{{question.author}}: "{{question.question}}" at {{question.date}}</li>
+  {{/each}}
+</ul>
