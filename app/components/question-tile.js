@@ -1,15 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  updateQuestionForm: false,
+  isImageShowing: false,
   actions: {
-    update(question, params) {
-      this.sendAction('update', question, params);
+    imageShow: function() {
+      this.set('isImageShowing', true);
     },
-    delete(question) {
-      if (confirm('Are you sure you want to delete this question?')) {
-        this.sendAction('destroyQuestion', question);
-      }
-    }
+    imageHide: function() {
+     this.set('isImageShowing', false);
+   }
   }
 });
