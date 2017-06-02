@@ -7,5 +7,16 @@
   <footer>
     {{#link-to 'contact'}}Our representatives would love to help!{{/link-to}}
     {{#link-to 'about'}}Learn more about this site!{{/link-to}}
+    <div class="menu">
+      {{#if session.isAuthenticated}}
+        <a {{action 'invalidateSession'}}>Logout</a>
+      {{else}}
+        {{#link-to 'login'}}Login{{/link-to}}
+      {{/if}}
+    </div>
+    <div class="main">
+      {{outlet}}
+    </div>
+
   </footer>
 </div>
