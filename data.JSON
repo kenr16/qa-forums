@@ -18,5 +18,14 @@
     "date": "June 4 2017",
     "content": "What is the meaning of all this?",
     "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxMDg1MjYzMV5BMl5BanBnXkFtZTYwMDMxOTE2._V1_UX214_CR0,0,214,317_AL_.jpg"
+  }],
+  "answers": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
   }]
 }

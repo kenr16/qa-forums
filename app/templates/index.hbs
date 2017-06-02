@@ -1,12 +1,21 @@
 <h1>Welcome to Ask Me Anything</h1>
-<h1>We are the White Fedora club</h1>
 <br>
 <p>We are a community full of answers waiting for the right question!  Give us a try.</p>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
      {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
+
+<h2> All Answers </h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.rating}} - {{answer.content}} - by {{answer.author}}</li>
+  {{/each}}
+</ul>
+
+{{new-answer saveAnswer="saveAnswer"}}
