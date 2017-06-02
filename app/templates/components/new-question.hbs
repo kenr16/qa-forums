@@ -13,13 +13,18 @@
       </div>
 
       <div class="form-group">
-        <label for="image">Image</label>
+        <label for="image">Image of yourself</label>
         {{input value=image id="image"}}
       </div>
 
       <div class="form-group">
         <label for="content">Question</label>
         {{input value=content id="content"}}
+      </div>
+
+      <div class="form-group">
+        <label for="detail">Additional Details</label>
+        {{input value=detail id="detail"}}
       </div>
 
       <button {{action 'saveQuestion1'}}>Save</button>

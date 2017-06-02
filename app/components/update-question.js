@@ -12,6 +12,7 @@ export default Ember.Component.extend({
         date: this.get('date'),
         image: this.get('image'),
         content: this.get('content'),
+        detail: this.get('detail'),
       };
       this.set('updateQuestionForm', false);
       this.sendAction('update', question, params);

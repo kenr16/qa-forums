@@ -2,30 +2,37 @@
     "author": "Lana Turner",
     "date": "June 1 2017",
     "content": "Why is the sky blue?",
+    "detail": "I have been thinking about this a while and have not been able to figure it out!",
     "image": "http://www.meredy.com/turner01.jpg"
   }, {
     "author": "Humphrey Bogart",
     "date": "June 2 2017",
-    "content": "Why is are the clouds white?",
+    "content": "Why is the grass green?",
+    "detail": "I'd much prefer grey or silver, it would match my suit.",
     "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIyOTE3MDM5Ml5BMl5BanBnXkFtZTYwMzA2MTM2._V1_UY317_CR14,0,214,317_AL_.jpg"
   }, {
     "author": "Ava Gardner",
     "date": "June 3 2017",
-    "content": "Why is the grass green?",
+    "content": "Why are the clouds white?",
+    "detail": "And don't feed me any lines about water vapor or somesuch!",
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ava_Gardner_Show_Boat_1951.jpg"
   }, {
     "author": "Charlton Heston",
     "date": "June 4 2017",
     "content": "What is the meaning of all this?",
+    "detail": "I marched with Martin Luther King!",
     "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxMDg1MjYzMV5BMl5BanBnXkFtZTYwMDMxOTE2._V1_UX214_CR0,0,214,317_AL_.jpg"
-  }],
-  "answers": [{
-    "author": "Andrea",
-    "rating": 4,
-    "content": "Did not fall down."
   }, {
-    "author": "Alex",
-    "rating": 9,
-    "content": "Nice view of the volcano!"
+    "author": "Robert Ryan",
+    "date": "June 5 2017",
+    "content": "Who are you people?",
+    "detail": "I'm a famous movie star!",
+    "image": "https://myfavoritewesterns.files.wordpress.com/2013/07/robert-ryan-5.jpg"
+  }, {
+    "author": "Audrey Totter",
+    "date": "June 6 2017",
+    "content": "Has anyone seen the brown hair dye? Lana Turner loaned it to me.",
+    "detail": "I last saw it on my desk!",
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTI5MGIyOGQtYmZiZi00NTE4LTlhMzEtNDMwOTM1Mjc2NTQ4XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_UY317_CR16,0,214,317_AL_.jpg"
   }]
 }
