@@ -2,6 +2,9 @@
 
 Ask me anything will be a small, ember-based app that will allow users to ask each other for any kind of advice, feedback or help with projects that are programming related.  The site will first allow users to submit a question, then it will allow other users to submit feedback on that question as a means of answering it.
 
+NOTE: Please install moment.js with the following command:
+ember install ember-moment
+
 ## Planning
 
 1. Configuration/dependencies

@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import moment from 'moment';
 
 export default Ember.Component.extend({
   updateQuestionForm: false,
@@ -9,7 +10,7 @@ export default Ember.Component.extend({
     update(question) {
       var params = {
         author: this.get('author'),
-        date: this.get('date'),
+        date: moment().format('MMMM Do YYYY'),
         image: this.get('image'),
         content: this.get('content'),
         detail: this.get('detail'),

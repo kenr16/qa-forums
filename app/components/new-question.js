@@ -1,3 +1,6 @@
+import Ember from 'ember';
+import moment from 'moment';
+
 export default Ember.Component.extend({
   addNewQuestion: false,
   actions: {
@@ -8,7 +11,7 @@ export default Ember.Component.extend({
     saveQuestion1() {
       var params = {
         author: this.get('author') ? this.get('author') : "",
-        date: this.get('date') ? this.get('date') : "",
+        date: moment().format('MMMM Do YYYY'),
         image: this.get('image') ? this.get('image') : "",
         content: this.get('content') ? this.get('content') : "",
         detail: this.get('detail') ? this.get('detail') : "",
