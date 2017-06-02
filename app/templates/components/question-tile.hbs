@@ -1,5 +1,22 @@
 <li>
-  {{question.author}} asked on {{question.date}}: "{{question.question}}" <br>
-  <img src={{question.image}}>
+  <hr>
+  <div class="asker">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="row">
+          <img src={{question.image}}>
+        </div>
+        <div class="row">
+          {{question.author}}
+        </div>
+      </div>
+      <div class="col-sm-3">
+        asked on {{question.date}}: "{{question.question}}"
+      </div>
+    </div>
+  </div>
+
+  <br>
+
   <button {{action 'delete' question}}>Delete Question</button>
 </li>
